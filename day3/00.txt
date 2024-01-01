@@ -1,0 +1,11 @@
+modules and pip
+
+MODULES:liraries of python code
+2 types
+1. external
+2. in-built
+
+pip: a package manager
+pip install module_name
+
+replit automatically installs modules if it is  not install

@@ -1,0 +1,4 @@
+day1-->short introduction to python 
+day2-->application and programs
+day3-->modules and pip
+day4-->our first program
