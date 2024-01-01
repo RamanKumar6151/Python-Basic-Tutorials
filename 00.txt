@@ -2,3 +2,5 @@ day1-->short introduction to python
 day2-->application and programs
 day3-->modules and pip
 day4-->our first program
+day5-->escape sequences comments and print in python
+day6-->variables  and datatypes
