@@ -15,3 +15,7 @@ day7-->operators, exercise1: create calculator
 day8-->skipped, solution of previous exercise
 day9-->type casting
 day10-->taking user inputs
+    01.py-->taking user inputs
+    02.py-->multiple inputs
+    03.py-->split method
+    04.py-->list comprehension

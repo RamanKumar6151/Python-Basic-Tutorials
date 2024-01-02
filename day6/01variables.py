@@ -42,3 +42,18 @@ print(a,b,c,sep="\n")
 # Assigning different values to multiple variables
 a,b,c=10,20.0,"raman"
 print(a,b,c,sep="\n")
+
+
+# SHARED REFERENCE
+x=5
+print(id(x))
+# id() used to see the address
+y=5
+print(id(y))
+print(id(5))
+# but
+x="geeks"
+print(id(x))
+y="comp"
+print(id(y))
+print(id(5))
