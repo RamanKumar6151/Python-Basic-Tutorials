@@ -4,3 +4,7 @@ day3-->modules and pip
 day4-->our first program
 day5-->escape sequences comments and print in python
 day6-->variables  and datatypes
+day7-->operators, exercise1: create calculator
+day8-->skipped, solution of previous exercise
+day9-->type casting
+day10-->taking user inputs
