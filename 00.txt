@@ -1,3 +1,4 @@
+                    1 jan 2024
 day1-->short introduction to python 
 day2-->application and programs
 day3-->modules and pip
@@ -19,3 +20,8 @@ day10-->taking user inputs
     02.py-->multiple inputs
     03.py-->split method
     04.py-->list comprehension
+
+                3 jan 2024
+day11-->strings
+day12-->string slicing an operations
+day13-->string methods
