@@ -19,3 +19,6 @@ else:
     print("0")
 # total 35 keywords 
 print(len(keyword.kwlist))
+
+flag=keyword.iskeyword("for")
+print(flag)
