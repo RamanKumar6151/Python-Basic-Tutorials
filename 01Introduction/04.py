@@ -21,7 +21,7 @@ print("non loacal keyword")
 def outer():
     a=10
     def inner():
-        # nonlocal a
+        nonlocal a
         a=5
     inner()
     print(a)
