@@ -6,6 +6,14 @@ print("exponential of 15: {0:e}".format(15))
 print("float of 15: {0:f}".format(15))
 print("hexadecimal of 15: {0:x}".format(15))
 print("hexadecimal of 15: {0:X}".format(15))
+print("{0:x}".format(16))
+#  The given code snippet uses the format method to convert the decimal number 16 into its hexadecimal representation.
+
+# Explanation:
+
+# {0:x}: This is a placeholder within the string for formatting. {0} refers to the first argument in the format method, and :x specifies that the argument should be formatted as a hexadecimal (base-16) number.
+
+# format(16): The format method is called with the argument 16. The number 16 is then converted to its hexadecimal representation.
 print("octal of 15: {0:o}".format(15))
 
 # string alignment

@@ -6,7 +6,7 @@ os.system("cls")
 str="-".join("hello")
 print(str)
 
-# string_name.join(iterable) 
+# seperator.join(iterable) 
 # Iterable – objects capable of returning their members one at a time. Some examples are List, Tuple, String, Dictionary, and Set
 # Return Value: The join() method returns a string concatenated with the elements of iterable. 
 
@@ -19,13 +19,15 @@ print("-".join("list1"))
 
 # joining the dictionary
 dic={"geek":1,"for":2,"geeks":3}
-print("_".join(dic))
+print("_".join(dic))  # only joins the key values
 
 # custom sepeartor
 words=["apple","","banana","","mango"]
 seperator="@"
 result=seperator.join(word for word in words if word)
 print(result)
+print(f"bool(\"\")={bool('')}")  # will return False
+print(f"bool(\"y\")={bool('y')}")  # will return True
 
 # ********************************
 s= 'abc'

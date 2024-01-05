@@ -63,6 +63,9 @@ print(string.hexdigits)
 # String.index()	
 # Returns the position of the first occurrence of substring in a string
 
+# String.find(substring)	
+# Returns the position of the first occurrence of substring in a string else returns "False"
+
 # string.uppercase
 
 # A string must contain uppercase letters.
@@ -91,6 +94,7 @@ print(string.swapcase())
 # string.replace(old, new, count)
 # old – old substring you want to replace.
 # new – new substring which would replace the old substring.
+
 # count – (Optional ) the number of times you want to replace the old substring with the new substring
 string = "Good Morning"
 new_string = string.replace("Good", "Great")
@@ -111,6 +115,10 @@ string = "Geeks"
 print(string.istitle())
 s = 'geeks For Geeks'
 print(s.istitle())
+
+# String.title()
+# converts the given String into titlecase
+
 
 # String.partition(seperator)
 # splits the string at the first occurrence of the separator and returns a tuple.
@@ -137,14 +145,14 @@ print(str.partition("for"))
 # String.splitlines	
 # Returns a list of lines in the string.
 
-# string.capitalize	
+# string.capitalize()	
 # Return a word with its first character capitalized.
 
 # string.expandtabs	
 # Expand tabs in a string replacing them by one or more spaces
 
 # string.find	
-# Return the lowest indexing a sub string.
+# Return the lowest indexing a sub string. else -1
 
 # string.rfind	
 # find the highest index.
