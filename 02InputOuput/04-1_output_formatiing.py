@@ -9,7 +9,7 @@ print("%d %s cost $%.2f"%(6, "banana", 1.74))
 welcome_scentence="hello my name is %s"%"graham"
 print(welcome_scentence)
 
-# %[<flags>][<width>][.<precision>]<type>
+# %[<flags>][<width>].[<precision>]<type>
 # The % character and the <type> component are required. The remaining components, shown in square brackets, are optional
 # d, i, u	Decimal integer
 # x, X	    Hexadecimal integer
