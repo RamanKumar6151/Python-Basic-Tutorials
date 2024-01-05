@@ -11,6 +11,7 @@ os.system("cls")
 # input().split(separator, maxsplit)
 num1,num2=input("enter two values").split()
 print(f"{num1} {num2}")
+# print(num1,num2,sep=" ")
 print(type(num1))
 
 # taking multiple x,inputs at a time
