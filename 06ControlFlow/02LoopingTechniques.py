@@ -18,10 +18,10 @@ for ind,val in enumerate(lst):
 print("enumerate with dictionary")
 dct={1:"a",2:"b",3:"c",4:"d"}
 for key,value in enumerate(dct):
-    print(f"dct[{key}]={value}")
+    print(f"dct[{key}]={value}")  # not working as expected
 
 # 2. zip()
-# combime two or more containers and print their elements sequentially, runs untill smallest contaimer completes
+# combime two or more containers and print their elements sequentially, runs untill smallest container completes
 print("zip()")
 for val,key in zip(lst,dct):
     print(f"list[{ind}] dict[{key}]={dct[key]}")

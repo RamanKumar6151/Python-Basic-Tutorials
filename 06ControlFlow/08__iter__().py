@@ -2,8 +2,8 @@ import os
 os.system("cls")
 
 # __iter__() ad __next__()
-# converting the objext into an iterator
-# iter() converst object into iterator
+# converting the object into an iterator
+# iter() converts object into iterator
 # next() or iterator.__next__(access the elements of iterator
 # raises StopIterationError when all elements have been iterated
 lst=[1,2,3,4]

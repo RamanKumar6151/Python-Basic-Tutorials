@@ -35,7 +35,7 @@ print("Initial blank List: ")
 print(List)
  
 # Addition of Elements in the List
-# List.append() method
+# List.append(value) method
 # List.insert(position, value) method
 # List.extend() method
 

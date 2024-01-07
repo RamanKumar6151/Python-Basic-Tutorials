@@ -19,7 +19,7 @@ fun(*my_list)
 # PACKING
 # when we dont know number of arguments we use * to pack arguments in function defination
 print("packing")
-# fun2 performs packing, afyter packing creates a 'tuple args'
+# fun2 performs packing, after packing creates a 'tuple args'
 def fun2(*args):
     # return sum(args)
     # or
@@ -54,9 +54,11 @@ f2("a","b","c")
 print("packing and unpacking in dictionary **")
 print("UNPACKING IN DICTIONARY")
 def f2(a,b,c):
-    print(a,b,c)
+    print(a,b,c,sep=" ")
 dict={"a":1,"b":2,"c":3}
 f2(**dict)
+print("also try this *dict")
+f2(*dict)
 
 # writting f2(1,**dict) is equivalent to f2(1,b=2,c=3)
 
