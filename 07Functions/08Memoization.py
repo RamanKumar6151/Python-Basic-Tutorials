@@ -2,7 +2,7 @@ import os
 os.system("cls")
 
 # memoiziation: technique to store intermediate result
-# to avoid unnecesaary repeated calculations during recursion
+# to avoid unnecessary repeated calculations during recursion
 
 print("memoiziation\n")
 

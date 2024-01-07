@@ -3,7 +3,7 @@ os.system("cls")
 # first class objects
 # python functions are first class objects 
 # 1. instance of object
-# 2. can store functtion n variable
+# 2. can store function n variable
 # 3. pass function as parameter in another function
 # 4. return function from a function
 # can store them in a data structure
@@ -32,7 +32,7 @@ print("\nfunction can RETURN another function")
 def create_adder(x:int)->int:
     def adder(y:int)->int:
         return x+y
-    # function returning anotehr function
+    # function returning another function
     return adder
 # driver code
 add_15=create_adder(15)

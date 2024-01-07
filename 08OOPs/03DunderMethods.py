@@ -11,7 +11,7 @@ print("dunder methods")
 # __init__() to initialize in class
 
 # __str__() to returns human readable string representation or object 
-# called by priint(), str(), format()
+# called by print(), str(), format()
 # if not defined then __repr__() is called
 
 # __repr__() returns more information riched string representaion of object

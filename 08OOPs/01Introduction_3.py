@@ -55,14 +55,14 @@ class Employee(Person):
         print(f"My idnumber is self.idnumber {self.idnumber}")
         print(f"My post is self.post {self.post}")
 
-# creation off object or an instance
+# creation of object or an instance
 B=Employee("Raman",6151,75000,"Senior SDE")
 B.display()
 B.details()
 
-# pyhton polymorphism
+# python polymorphism
 print("\nPython polymorphism")
-# demonstrates the concept of inherritance and meethod overriding
+# demonstrates the concept of inheritance and method overriding
 # subclass can override the methods of parent class
 
 # parent class

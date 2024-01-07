@@ -2,7 +2,7 @@ import os
 os.system("cls")
 
 #  data hiding: hidng informations
-# __ before v attributes name allow them not to be directly visible outside
+# __ before the attributes name allow them not to be directly visible outside
 
 class Myclass:    
     # hidden variable

@@ -1,9 +1,9 @@
 import os
 os.system("cls")
 
-# closure: a technique by wwhich the data gets attatched to the code
+# closure: a technique by which the data gets attatched to the code
 
-# closures are function objects that rememenbers values in the enclosing scope even if tey are not present in the memory 
+# closures are function objects that remembers values in the enclosing scope even if they are not present in the memory 
 
 # function closure
 print("function closure")
@@ -58,5 +58,5 @@ print("aliasing same as the local scope inner")
 print("inner=outer()")
 inner=outer()
 # this inner variable has global scope
-# after aliasing the grabage collector clears the memory of outer(), but since the value is enclosed in outer it is accessed by the global inner
+# after aliasing the garbage collector clears the memory of outer(), but since the value is enclosed in outer it is accessed by the global inner
 print(f"inner() will give {inner()}")
