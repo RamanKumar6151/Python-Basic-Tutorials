@@ -15,8 +15,8 @@ system("cls")
 # 9. ZeroDivisionError
 # 10. ImportError
 
-# Exception: are raised when program is syntatctically correct
-# but the code tesults in an errror which changes the flow of control
+# Exception: are raised when program is syntactically correct
+# but the code results in an error which changes the flow of control
 
 a=[1,2,3]
 try:
