@@ -23,6 +23,23 @@ x=list(
         )
     )
 print(x)
+"""
+input("enter x, y: "):
+
+Asks the user to enter values for x and y, separated by a space.
+input().split():
+
+Takes the input string and splits it into a list of substrings using whitespace as the separator.
+map(int, ...):
+
+Applies the int function to each element of the list, converting the substrings to integers.
+list(...):
+
+Creates a list from the mapped values.
+x, y = list(...):
+
+Unpacks the values from the list into the variables x and y.
+"""
 print(type(x))
 
 # ******************************
