@@ -172,3 +172,29 @@ print(set1)
 # issuperset()	Returns True if this set contains another set
 # symmetric_difference()	Returns the symmetric difference of two sets as a new set
 # symmetric_difference_update()	Updates a set with the symmetric difference of itself and another
+
+# frozenset(iterable)
+"""
+ It is a built-in data type that represents an immutable set. While a regular set (set) is mutable and can be modified after creation, a frozenset is immutable, meaning its elements cannot be changed once it is created.
+"""
+
+# creting a frrozenset()
+frozen_set=frozenset([1,2,3,4])
+print(f"\nfrozen_set= {frozen_set}")
+"""
+You can perform various set operations on frozenset objects, such as intersection, union, difference, and membership tests, similar to regular sets. However, since frozenset is immutable, you cannot modify it by adding or removing elements.
+"""
+frozen_set1=frozenset([1,2,3,4])
+frozen_set2=frozenset([3,4,5,6])
+
+# set operations
+intersection=frozen_set1 & frozen_set2
+union=frozen_set1 | frozen_set2
+diffrence=frozen_set1 - frozen_set2
+
+print("intersection", intersection)
+print("union", union)
+print("difference", diffrence)
+# Note: While frozenset is supported in Python 3, you should be aware that some set operations and syntax might differ from the mutable set.
+
+# frozen_set.add("he") # will return an error

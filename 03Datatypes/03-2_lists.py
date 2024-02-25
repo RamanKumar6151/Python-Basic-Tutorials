@@ -41,9 +41,29 @@ print(lst)
 # Insert()	Insert an item at the defined index
 # Remove()	Removes an item from the list
 # Clear()	Removes all items from the list
+
 # Index()	Returns the index of the first matched item
+print("\nlist.index(element, start, end)")
+lst.clear()
+lst=[x for x in "Geeks for geeks!" if x!=' ']
+print(f"lst={lst}")
+print(f"lst.index('e')={lst.index('e')}")
+print(f"lst.index('e',2,5)={lst.index('e',2,5)}")
+print(f"lst.index('e',7)={lst.index('e',7)}")
+
 # Count()	Returns the count of the number of items passed as an argument
+print(f"lst.count('e')={lst.count('e')}")
+
 # Sort()	Sort items in a list in ascending order
 # Reverse()	Reverse the order of items in the list
 # copy()	Returns a copy of the list
+import copy
+
+copy_lst=lst.copy()
+print(f"copy_lst={copy_lst}")
+
+deep_copy_lst=lst
+lst.reverse()
+print(f"deep_copy_lst={deep_copy_lst}")
+
 # pop()	Removes and returns the item at the specified index. If no index is provided, it removes and returns the last item.

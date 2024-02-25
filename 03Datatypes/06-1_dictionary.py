@@ -18,8 +18,33 @@ print(f"after changing the value: {dict1}")
 # using get() method
 # USING KEY
 print(f"accessing the element using key dict1[0]: {dict1[0]}")
+
 # USING GET() METHOD dict1.get(key)
+"""
+The get() method is a built-in method in Python dictionaries that allows you to retrieve the value associated with a specified key. It is a safe way to access dictionary elements, especially when you're unsure whether a key exists in the dictionary. The get() method has the following syntax:
+
+syntax:
+dictionary.get(key, default=None)
+
+key: The key for which you want to retrieve the value.
+default: (Optional) The value to be returned if the key is not found. If not provided, None is returned.
+
+"""
+
 print(f"accessing the elemenst using the get() method dict1.get(4): {dict1.get(4)}")
+
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+# Using get() to access elements
+name = my_dict.get('name')
+gender = my_dict.get('gender', 'Not specified')
+street=my_dict.get('street')
+print(name)    # Output: John
+print(gender)  # Output: Not specified
+print(street)  # Output: None
+
+# if we use dictionary[key] to access the elements and  key is nott presentv then it will returnn KEYERROR, to deal with it we use get() method
+
 # IN NESTED DICTIONARY
 Dict = {'Dict1': {1: 'Geeks'},
         'Dict2': {'Name': 'For'}}

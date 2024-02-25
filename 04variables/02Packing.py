@@ -1,3 +1,4 @@
+# use two operators * (for tuples) and ** (for dictionaries).
 # packing and unpacking of variable
 import os
 os.system("cls")
