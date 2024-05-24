@@ -198,3 +198,5 @@ print("difference", diffrence)
 # Note: While frozenset is supported in Python 3, you should be aware that some set operations and syntax might differ from the mutable set.
 
 # frozen_set.add("he") # will return an error
+
+print("set(enumerate(list('Hackerrank'))) -> ",set(enumerate(list('Hackerrank'))))
