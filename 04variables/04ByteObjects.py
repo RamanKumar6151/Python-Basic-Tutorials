@@ -17,3 +17,7 @@ In Python, a bytes object is a sequence of bytes. It is an immutable sequence, s
 
 Here are some ways to create bytes objects:
 """
+# byte_data=b"hello"
+byte_data=bytes([104, 101, 108, 111])
+byte_data=bytes("hello", "utf-8")
+print(byte_data)

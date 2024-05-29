@@ -24,6 +24,8 @@ print("%4.2f"%(123.333))
 
 # Our float number 05.333 is formatted with 5 characters and a precision of 2, denoted by the number following the ‘.’ in the placeholder. The last character ‘f’ indicates that the placeholder represents a float value.
 
+# %05.2f: This specifies a floating-point number (f) that should be formatted with a width of at least 5 characters, including the decimal point and 2 digits after the decimal point. If the number is shorter than 5 characters, it will be padded with zeros (0) on the left. 
+
 # format method
 print('I love {} for "{}!"'.format('Geeks', 'Geeks'))
  

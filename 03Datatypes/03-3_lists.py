@@ -17,6 +17,50 @@ print("reduce() with initializer")
 print(f"functools.reduce(lambda a,b: a if a>b else b, lst,10)={functools.reduce(lambda a,b: a if a>b else b, lst,10)}")
 # reduce()	apply a particular function passed in its argument to all of the list elements stores the intermediate result and only returns the final summation value
 
+# Let's break down the provided code to understand what it does and then explain the output:
+
+# Explanation of `reduce()`
+
+# 1. **`reduce(function, iterable[, initializer])`**:
+#    - `function`: A function of two arguments. This function is applied cumulatively to the items of the iterable.
+#    - `iterable`: The sequence of items to be reduced.
+#    - `initializer` (optional): If provided, this value is placed before the items of the iterable in the calculation.
+
+# ### Breakdown of the Code
+
+# 1. **`lambda a, b: a if a > b else b`**:
+#    - This lambda function takes two arguments, `a` and `b`, and returns the greater of the two.
+#    - Essentially, it finds the maximum of the two arguments.
+
+# 2. **`functools.reduce(lambda a, b: a if a > b else b, lst, 10)`**:
+#    - `functools.reduce` will apply the lambda function cumulatively to the items in `lst` with an initial value of `10`.
+
+# ### Step-by-Step Execution
+
+# 1. **Initial value**: The `initializer` is `10`, so the first value of `a` is `10`.
+# 2. **First iteration**: Compare `10` (initializer) and `1` (first element of `lst`):
+#    - `a if a > b else b` becomes `10 if 10 > 1 else 1` => `10`
+# 3. **Second iteration**: Compare `10` (result from previous iteration) and `2` (second element of `lst`):
+#    - `10 if 10 > 2 else 2` => `10`
+# 4. **Third iteration**: Compare `10` and `3`:
+#    - `10 if 10 > 3 else 3` => `10`
+# 5. **Fourth iteration**: Compare `10` and `4`:
+#    - `10 if 10 > 4 else 4` => `10`
+# 6. **Fifth iteration**: Compare `10` and `5`:
+#    - `10 if 10 > 5 else 5` => `10`
+
+# ### Output
+
+# After all iterations, the result remains `10` because the initializer `10` is greater than all elements in `lst`.
+
+# Therefore, the output of the code will be:
+
+# ```python
+# 10
+# ```
+
+# This code effectively finds the maximum value between the initializer and all elements in the list. In this case, since `10` is greater than all elements in `lst`, the output is `10`.
+
 # sum()	Sums up the numbers in the list
 """
 Syntax : sum(iterable, start)  
