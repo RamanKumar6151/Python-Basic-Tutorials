@@ -28,7 +28,7 @@ P3=Person("Raj")
 P3.say_hi()
 
 print("\n__init__() method with inheritence")
-# inheritance: one claass inherits properties form other class
+# inheritance: one class inherits properties form other class
 
 class A(object):
     def __init__(self,something):

@@ -9,7 +9,7 @@ os.system("cls")
 
 # comparision operator
 # precedence 
-# arithmetic operatot> comparison operator(all comparison op have same precedence)
+# arithmetic operator> comparison operator(all comparison op have same precedence)
 
 # logical operator
 # precedence
@@ -29,7 +29,7 @@ b=20
 c=a
 d=10
 print(f"a is c {a is c}")
-print(f"a is b {a is not b}")
+print(f"a is not b {a is not b}")
 print(f"a is d {a is d}")
 
 print("ternary operator")

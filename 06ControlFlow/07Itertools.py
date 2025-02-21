@@ -48,4 +48,4 @@ print('1. ietertools.product(iterable, repeat=num)')
 print(list(itertools.product([1,2], repeat=2))) 
 
 print("2. itertools.permutation()")
-# i dont want to study it for noow, its getting more and more complex
+# i dont want to study it for now, its getting more and more complex

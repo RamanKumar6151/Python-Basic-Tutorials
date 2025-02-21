@@ -22,7 +22,7 @@ dic={"geek":1,"for":2,"geeks":3}
 print("_".join(dic))  # only joins the key values
 
 # custom sepeartor
-words=["apple","","banana","","mango"]
+words=["apple","","banana","","mango"]  # consist of empty strings
 seperator="@"
 result=seperator.join(word for word in words if word)
 print(result)

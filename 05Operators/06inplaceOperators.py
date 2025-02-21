@@ -73,4 +73,4 @@ print("\noperator.iadd(target, value)")
 new_list=[1,2,3]
 iadd(new_list, [4,5,6])
 print(new_list)
-# iadd() doesnt worls like above in case of immutable objects
+# iadd() doesnt works like above in case of immutable objects
